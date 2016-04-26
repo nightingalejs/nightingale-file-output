@@ -3,7 +3,7 @@ import { createWriteStream } from 'fs';
 export default function createOutputFile(path) {
     const stream = createWriteStream(path);
 
-    const write = function write(string, logLevel) {
+    const write = function write(string) {
         stream.write(string);
     };
 
