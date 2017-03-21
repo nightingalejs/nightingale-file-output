@@ -4,5 +4,10 @@
   ],
   "react": false,
   "documentation": false,
-  "testing": false
+  "testing": false,
+  "entries": [
+    "index"
+  ],
+  "flow": false,
+  "doclets": false
 }
